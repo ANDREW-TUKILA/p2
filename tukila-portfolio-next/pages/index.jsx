@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import Skills from '@/components/Skills';
-import Footer from '@/components/Footer';
-import ProjectCard from '@/components/ProjectCard';
-import { PROFILE } from '@/data/config';
-import { PROJECTS } from '@/data/projects';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Skills from '../components/Skills';
+import Footer from '../components/Footer';
+import ProjectCard from '../components/ProjectCard';
+import { PROFILE } from '../data/config';
+import { PROJECTS } from '../data/projects';
 
 export default function Home({ lang, setLang }) {
   return (
